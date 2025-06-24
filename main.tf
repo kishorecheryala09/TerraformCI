@@ -22,7 +22,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rg" {
   location = "East US"
-  name     = "rgdp"
+  name     = "rgdp1"
 }
 
 resource "azurerm_storage_account" "storage" {
