@@ -6,14 +6,14 @@ terraform {
       version = "~> 3.43.0"
     }
   }
-  cloud { 
-    
-    organization = "ProjectWorkspaces" 
+  cloud {
 
-    workspaces { 
-      name = "TerraformCI" 
-    } 
-  } 
+    organization = "ProjectWorkspaces"
+
+    workspaces {
+      name = "TerraformCI"
+    }
+  }
 }
 provider "azurerm" {
   features {}
