@@ -7,9 +7,7 @@ terraform {
     }
   }
   cloud {
-
     organization = "ProjectWorkspaces"
-
     workspaces {
       name = "TerraformCI"
     }
